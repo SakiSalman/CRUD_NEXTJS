@@ -13,3 +13,5 @@ const mongoConnect = async () => {
             console.log(error.message);
     }
 }
+
+export default mongoConnect
